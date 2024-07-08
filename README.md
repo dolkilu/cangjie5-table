@@ -1,16 +1,24 @@
 # cangjie5-table
 
 ## Credits
+
 [倉頡之友](https://www.chinesecj.com/forum/forum.php?mod=viewthread&tid=195320)
+
 [Jackchows/Cangjie5 倉頡五代補完計劃](https://github.com/Jackchows/Cangjie5)
 
 ## Files
 `cj5-13053-default.txt` :  倉頡之友 五倉繁體
+
 `cj5-20902.txt`:  倉頡之友 五倉通用 
+
 `cj5-90000.txt`:  倉頡之友 五倉世紀
+
 `cj5-13053-modified.txt` : 五倉繁體 + 部份五倉通用 
+
 `cangjie5.main-default.dict` :  cangjie5.main.dict from fcitx5 
+
 `cangjie5.main.dict` : `cj5-13053-modified.txt` -> fcitx5 format
+
 
 
 ## How to
