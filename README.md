@@ -23,19 +23,37 @@
 
 ## How to
 
- 1. Install `libime`
-Arch
-```sudo pacman -S libime```
-Debian
-```sudo apt install libime-bin```
+1. Install `libime`
 
-2. For me this is the default tables location  `/usr/share/fcitx5/table`, `~/.local/share/fcitx5/table` for user's table
+	Arch
+
+		sudo pacman -S libime
+
+	Debian
+
+		sudo apt install libime-bin
+
+2. 
+	Fcitx5 tables location  `/usr/share/fcitx5/table`
+
+	User's table location `~/.local/share/fcitx5/table`
+
 3. Backup the default table by copying or exporting them. 
-4. Converting from .dict to .txt 
-`libime_tabledict -d /usr/share/fcitx5/table/cangjie5.main.dict cangjie5-default.txt`
-5. Modify the table to your own preference
-6. Ensure your table's format is correct by comparing the first few lines of `fcitx5's table` to your table
-7. Converting from .txt to .dict
-	`libime_tabledict your-table.txt cangjie5.main.dict`
-8. Overwrite `.dict` with `sudo`
-9. Restart fcixt5
+
+4. Converting from .dict to .txt
+
+
+		libime_tabledict -d /usr/share/fcitx5/table/cangjie5.main.dict cangjie5-default.txt
+
+
+6. Modify the table to your own preference
+
+7. Ensure your table's format is correct by comparing the first few lines of `fcitx5's default table`
+
+8. Converting from .txt to .dict
+
+		libime_tabledict your-table.txt cangjie5.main.dict
+
+10. Overwrite `.dict` with `sudo`
+
+11. Restart fcixt5
